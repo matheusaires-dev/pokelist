@@ -1,0 +1,36 @@
+.inputBox{
+    display: flex;
+    width: 50%;
+    border-radius: 10px;
+    margin: 64px auto;
+    background-color: #F5F5F5;
+    border: 2px solid #CB225D;
+    align-items: center;
+}
+
+.inputBox:focus-within{
+    background-color: #FFF;
+    border: 2px solid #FD1B54;
+    
+    input, .icon{
+        color: #FD1B54;
+    }
+}
+
+input{
+    background-color: transparent;
+    padding: 16px;
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+    color: #CB225D;
+}
+
+
+.icon{
+    padding-right: 8px;
+    font-size: 32px;
+    color: #CB225D;
+}
